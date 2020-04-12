@@ -1,5 +1,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/skerryvore/linear_regression_101/master)
 
+![banner image](https://user-images.githubusercontent.com/5646482/79070583-c0531900-7cce-11ea-8756-2732bc237fea.PNG)
+
 # linear_regression_101
 Estimating the parameters of a model by optimising the fit of the model to empirical data is a staple of computational data science. 
 
