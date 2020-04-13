@@ -10,7 +10,11 @@ This repository contains a set of Jupyter notebooks that demonstrate how to impl
 A minimal example is fitting a simple linear model, i.e. a straight line, ![formula](https://render.githubusercontent.com/render/math?math=y=mx%2Bc)
 , to some set of measurements of **y** (commonly called the dependent variable or response variable) for a given range of **x** values (commonly called the predicter variable or independent variable), to estimate the slope, _m_, and intercept _c_, of the line.
 
-A routine method for achieving this is Ordinary Least Squares regression (OLS). The routine in the scipy package that implements this is `scipy.stats.linregress`. OLS is quick and straightforward, but does not take account of the magnitude of measurement uncertainties on _x_ or _y_ values. Orthogonal Direction Regression (ODR) enables measurement errors in both variables to be accounted for, and is particularly appropropriate if the measured data includes outliers with large errors.
+A routine method for achieving this is Ordinary Least Squares regression (OLS). OLS aims to minimise the difference between the observed values of y and the values predicted by the model. It achieves this by finding the model that has the smallest value for the sum of the squared differences, usually called the residuals. These are illustrated below by the vertical red lines between the green observed values and the blue line representing the model predictions.
+
+![residuals](https://user-images.githubusercontent.com/5646482/79123220-90207e80-7d91-11ea-8def-6c2486257133.png)
+
+The routine in the scipy package that implements this is `scipy.stats.linregress`. OLS is quick and straightforward, but does not take account of the magnitude of measurement uncertainties on _x_ or _y_ values. Orthogonal Direction Regression (ODR) enables measurement errors in both variables to be accounted for, and is particularly appropropriate if the measured data includes outliers with large errors.
 
 An alternative to using regression techniques to estimating model parameters is to use a Bayesian approach and a Markov Chain Monte Carlo sampling strategy.
 
