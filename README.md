@@ -16,7 +16,7 @@ A routine method for achieving this is Ordinary Least Squares regression (OLS). 
 ![residuals](https://user-images.githubusercontent.com/5646482/79123220-90207e80-7d91-11ea-8def-6c2486257133.png)
 
 
-# Taking care of the errors-how to handle uncertainty in mesured data
+## Taking care of the errors-how to handle uncertainty in measured data
 OLS is quick and straightforward, but does not take account of the magnitude of measurement uncertainties on _x_ or _y_ values. Orthogonal Direction Regression (ODR) enables measurement errors in both variables to be accounted for, and is particularly appropropriate if the measured data includes outliers with large errors.
 
 An alternative to using regression techniques to estimating model parameters is to use a Bayesian approach and a Markov Chain Monte Carlo sampling strategy.
