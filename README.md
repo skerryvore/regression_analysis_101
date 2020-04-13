@@ -19,7 +19,7 @@ A routine method for achieving this is [Ordinary Least Squares](https://en.wikip
 
 
 ## Taking care of the errors-how to handle uncertainty in measured data
-OLS is quick and straightforward, but does not take account of the magnitude of measurement uncertainties on _x_ or _y_ values. [Orthogonal Direction Regression (ODR)](http://www.mechanicalkern.com/static/odr_ams.pdf "ODR link") enables measurement errors in both variables to be accounted for, and is particularly appropropriate if the measured data includes outliers with large errors.
+OLS is quick and straightforward, but does not take account of the magnitude of measurement uncertainties on _x_ or _y_ values. [Orthogonal Distance Regression (ODR)](http://www.mechanicalkern.com/static/odr_ams.pdf "ODR link") enables measurement errors in both variables to be accounted for, and is particularly appropropriate if the measured data includes outliers with large errors.
 
 ## The Bayesian approach using a Markov Chain Monte Carlo sampling strategy
 An alternative to using regression techniques to estimating model parameters is to use a [Bayesian](https://en.wikipedia.org/wiki/Bayesian_statistics "Bayesian statistics") approach and a [Markov Chain Monte Carlo](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo "MCMC link") sampling strategy.
