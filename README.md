@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/skerryvore/linear_regression_101/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/skerryvore/regression_analysis_101/master)
 
 ![regression_banner25cm](https://user-images.githubusercontent.com/5646482/79122519-bd6c2d00-7d8f-11ea-9732-471f6bfe0168.png)
 
