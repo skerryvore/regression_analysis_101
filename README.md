@@ -5,7 +5,7 @@
 # regression_analysis_101
 Estimating the parameters of a model by optimising the fit of the model to empirical data is a staple of computational data science. 
 
-This repository contains a set of Jupyter notebooks that demonstrate how to implement a range of regression methods and a Bayesian MCMC method. These are demosntrated for a variety of geoscience type applications, e.g. fitting an iscochron to isotope data to estimate an age, fitting a simple spherical object gravity model to observed Bouguer gravity anomaly data from the Isle of Mull in Scotland, and estimating parameters for a simple continental geotherm model based on PT estimates derived from mantle xenolith geochemistry. Various other routine housekeeping (e.g. reading and writing data files) and plotting techniques (using `Matplotlib` routines) are also illustrated.
+This repository contains a set of Jupyter notebooks that demonstrate how to implement a range of [regression methods](https://en.wikipedia.org/wiki/Regression "Regression methods") and a Bayesian MCMC method. These are demosntrated for a variety of geoscience type applications, e.g. fitting an iscochron to isotope data to estimate an age, fitting a simple spherical object gravity model to observed Bouguer gravity anomaly data from the Isle of Mull in Scotland, and estimating parameters for a simple continental geotherm model based on PT estimates derived from mantle xenolith geochemistry. Various other routine housekeeping (e.g. reading and writing data files) and plotting techniques (using `Matplotlib` routines) are also illustrated.
 
 ## A minimal example-fitting a straight line to set of x and y values
 A minimal example is fitting a simple linear model, i.e. a straight line, ![formula](https://render.githubusercontent.com/render/math?math=y=mx%2Bc)
@@ -20,11 +20,11 @@ A routine method for achieving this is Ordinary Least Squares regression (OLS). 
 OLS is quick and straightforward, but does not take account of the magnitude of measurement uncertainties on _x_ or _y_ values. Orthogonal Direction Regression (ODR) enables measurement errors in both variables to be accounted for, and is particularly appropropriate if the measured data includes outliers with large errors.
 
 ## The Bayesian approach using a Markov Chain Monte Carlo sampling strategy
-An alternative to using regression techniques to estimating model parameters is to use a Bayesian approach and a Markov Chain Monte Carlo sampling strategy.
+An alternative to using regression techniques to estimating model parameters is to use a [Bayesian](https://en.wikipedia.org/wiki/Bayesian_statistics "Bayesian statistics") approach and a [Markov Chain Monte Carlo](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo "MCMC link") sampling strategy.
 
 ![pyMC3_Figure_3](https://user-images.githubusercontent.com/5646482/79071016-2b055400-7cd1-11ea-8228-e54777c30753.png)
 
-An advantage of the Bayesian MCMC technique is that you can treat both the model parameters and the observed data as uncertain, and estimate their likely values (credible intervals) and the posterior probability distributions. This can be implemented in python using the `pyMC3` package. See the [pyMC3 docs page](https://docs.pymc.io/ "pyMC3 docs") page for details.
+An advantage of the Bayesian MCMC technique is that you can treat both the model parameters and the observed data as uncertain, and estimate their likely values (credible intervals) and the posterior probability distributions. This can be implemented in python using the `pyMC3` package. See the [pyMC3 docs](https://docs.pymc.io/ "pyMC3 docs") page for details.
 
 ![pyMC3_Figure_1](https://user-images.githubusercontent.com/5646482/79071026-3193cb80-7cd1-11ea-87eb-4ca1488b3fb0.png)
 ![pyMC3_Figure_2](https://user-images.githubusercontent.com/5646482/79071020-2e004480-7cd1-11ea-97d1-d5c263812f36.png)
