@@ -5,7 +5,9 @@
 # regression_analysis_101
 Estimating the parameters of a model by optimising the fit of the model to empirical data is a staple of computational data science. 
 
-This repository contains a set of Jupyter notebooks that demonstrate how to implement a range of [regression methods](https://en.wikipedia.org/wiki/Regression "Regression methods") and a Bayesian MCMC method. These are demosntrated for a variety of geoscience type applications, e.g. fitting an iscochron to isotope data to estimate an age, fitting a simple spherical object gravity model to observed Bouguer gravity anomaly data from the Isle of Mull in Scotland, and estimating parameters for a simple continental geotherm model based on PT estimates derived from mantle xenolith geochemistry. Various other routine housekeeping (e.g. reading and writing data files) and plotting techniques (using `Matplotlib` routines) are also illustrated.
+This repository contains a set of Jupyter notebooks that demonstrate how to implement a range of [regression methods](https://en.wikipedia.org/wiki/Regression "Regression methods") and a Bayesian MCMC approach for fitting models and estimating model parameters. These are demonstrated for a variety of geoscience type applications, e.g. fitting an iscochron to isotope data to estimate a geologcal age, fitting observed Bouguer gravity anomaly data from the Isle of Mull in Scotland using simple gravity model for a buried spherical object, and estimating parameters for a simple continental geotherm model based on PT estimates derived from mantle xenolith geochemistry.
+
+Various other routine coding tasks (e.g. reading and writing data files) and plotting techniques (using `Matplotlib` routines) are also illustrated.
 
 ## A minimal example-fitting a straight line to set of x and y values
 A minimal example is fitting a simple linear model, i.e. a straight line, ![formula](https://render.githubusercontent.com/render/math?math=y=mx%2Bc)
