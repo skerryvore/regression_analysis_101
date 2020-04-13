@@ -1,4 +1,4 @@
-name: linear_regression_01
+name: regression_analysis_101
 channels:
   - conda-forge
   - defaults
