@@ -24,7 +24,7 @@ An alternative to using regression techniques to estimating model parameters is 
 
 ![pyMC3_Figure_3](https://user-images.githubusercontent.com/5646482/79071016-2b055400-7cd1-11ea-8228-e54777c30753.png)
 
-An advantage of the Bayesian MCMC technique is that you can treat both the model parameters and the observed data as uncertain, and estimate their likely values (credible intervals) and the posterior probability distributions. This can be implemented in python using the `pyMC3` package.
+An advantage of the Bayesian MCMC technique is that you can treat both the model parameters and the observed data as uncertain, and estimate their likely values (credible intervals) and the posterior probability distributions. This can be implemented in python using the `pyMC3` package. See the [pyMC3 docs page](https://docs.pymc.io/ "pyMC3 docs") page for details.
 
 ![pyMC3_Figure_1](https://user-images.githubusercontent.com/5646482/79071026-3193cb80-7cd1-11ea-87eb-4ca1488b3fb0.png)
 ![pyMC3_Figure_2](https://user-images.githubusercontent.com/5646482/79071020-2e004480-7cd1-11ea-97d1-d5c263812f36.png)
